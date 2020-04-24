@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Redirect} from 'react-router-dom';
 
-export const ProtectedRoute = ({component: Component, ...restOfProps}) => {
+export const PrivateRoute = ({component: Component, ...restOfProps}) => {
         console.log(restOfProps.isLoggedIn);
 
     return(
