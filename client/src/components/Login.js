@@ -22,7 +22,6 @@ const Login = props => {
   return (
     <>
       <h1>Welcome to the Bubble App!</h1>
-      <p>Build a login page here</p>
       <form onSubmit={handleSubmit(onSubmit)} className="login">
         <h1>Log In</h1>
         <label htmlFor="username">
